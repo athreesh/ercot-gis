@@ -30,6 +30,7 @@ export interface DataCenter {
   latitude: number;
   longitude: number;
   capacityMw: number | null;
+  usageMw: number | null;
   type: DCType;
   status: DCStatus;
   campus: string;

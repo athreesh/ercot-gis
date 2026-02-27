@@ -1,5 +1,5 @@
 import type { Project, DataCenter, LargeLoad } from "../lib/types";
-import { FUEL_COLORS, STATUS_COLORS, DC_TYPE_COLORS, DC_TYPE_LABELS, LOAD_TYPE_COLORS, LOAD_TYPE_LABELS } from "../lib/constants";
+import { FUEL_COLORS, STATUS_COLORS, DC_TYPE_COLORS, DC_TYPE_LABELS, LOAD_TYPE_COLORS, LOAD_TYPE_LABELS, getTDU } from "../lib/constants";
 
 interface Props {
   x: number;
@@ -23,10 +23,15 @@ function isLargeLoad(obj: any): obj is LargeLoad {
   return "requestedMw" in obj;
 }
 
+function Label({ children }: { children: React.ReactNode }) {
+  return <span className="text-gray-400">{children}</span>;
+}
+
 function ProjectTooltip({ project }: { project: Project }) {
   const rgb = FUEL_COLORS[project.fuel];
   const fuelColor = rgbToCSS(rgb);
   const statusColor = STATUS_COLORS[project.status];
+  const tdu = project.county ? getTDU(project.county) : null;
 
   return (
     <>
@@ -40,13 +45,12 @@ function ProjectTooltip({ project }: { project: Project }) {
           <span className="inline-block h-2.5 w-2.5 rounded-full" style={{ backgroundColor: statusColor }} />
           <span>{project.status}</span>
         </div>
-        <div>
-          <span className="text-gray-400">Capacity:</span> {project.capacityMw.toLocaleString()} MW
-        </div>
+        <div><Label>Capacity:</Label> {project.capacityMw.toLocaleString()} MW</div>
         {project.codYear && (
-          <div><span className="text-gray-400">COD Year:</span> {project.codYear}</div>
+          <div><Label>COD Year:</Label> {project.codYear}</div>
         )}
-        <div><span className="text-gray-400">County:</span> {project.county || "N/A"}</div>
+        <div><Label>County:</Label> {project.county || "N/A"}</div>
+        {tdu && <div><Label>Utility:</Label> {tdu}</div>}
       </div>
     </>
   );
@@ -54,20 +58,26 @@ function ProjectTooltip({ project }: { project: Project }) {
 
 function DataCenterTooltip({ dc }: { dc: DataCenter }) {
   const color = rgbToCSS(DC_TYPE_COLORS[dc.type]);
+  const tdu = dc.county ? getTDU(dc.county) : null;
+
   return (
     <>
       <div className="mb-1 font-semibold text-sm leading-tight">{dc.name}</div>
       <div className="space-y-0.5">
-        <div><span className="text-gray-400">Operator:</span> {dc.operator}</div>
+        <div><Label>Operator:</Label> {dc.operator}</div>
         <div className="flex items-center gap-1.5">
           <span className="inline-block h-2.5 w-2.5 rounded-full" style={{ backgroundColor: color }} />
           <span>{DC_TYPE_LABELS[dc.type]}</span>
         </div>
-        <div><span className="text-gray-400">Status:</span> {dc.status}</div>
+        <div><Label>Status:</Label> {dc.status}</div>
         {dc.capacityMw != null && (
-          <div><span className="text-gray-400">Capacity:</span> {dc.capacityMw.toLocaleString()} MW</div>
+          <div><Label>Capacity:</Label> {dc.capacityMw.toLocaleString()} MW</div>
         )}
-        <div><span className="text-gray-400">Location:</span> {dc.city}, {dc.county} County</div>
+        {dc.usageMw != null && dc.usageMw > 0 && (
+          <div><Label>Current draw:</Label> {dc.usageMw.toLocaleString()} MW</div>
+        )}
+        <div><Label>Location:</Label> {dc.city}, {dc.county} County</div>
+        {tdu && <div><Label>Utility:</Label> {tdu}</div>}
       </div>
     </>
   );
@@ -75,19 +85,22 @@ function DataCenterTooltip({ dc }: { dc: DataCenter }) {
 
 function LargeLoadTooltip({ load }: { load: LargeLoad }) {
   const color = rgbToCSS(LOAD_TYPE_COLORS[load.type]);
+  const tdu = load.county ? getTDU(load.county) : null;
+
   return (
     <>
       <div className="mb-1 font-semibold text-sm leading-tight">{load.name}</div>
       <div className="space-y-0.5">
-        <div><span className="text-gray-400">Entity:</span> {load.entity}</div>
+        <div><Label>Entity:</Label> {load.entity}</div>
         <div className="flex items-center gap-1.5">
           <span className="inline-block h-2.5 w-2.5 rounded-full" style={{ backgroundColor: color }} />
           <span>{LOAD_TYPE_LABELS[load.type]}</span>
         </div>
-        <div><span className="text-gray-400">Requested:</span> {load.requestedMw.toLocaleString()} MW</div>
-        <div><span className="text-gray-400">County:</span> {load.county}</div>
+        <div><Label>Requested:</Label> {load.requestedMw.toLocaleString()} MW</div>
+        <div><Label>County:</Label> {load.county}</div>
+        {tdu && <div><Label>Utility:</Label> {tdu}</div>}
         {load.yearFiled > 0 && (
-          <div><span className="text-gray-400">Year Filed:</span> {load.yearFiled}</div>
+          <div><Label>Year Filed:</Label> {load.yearFiled}</div>
         )}
       </div>
     </>
@@ -100,7 +113,7 @@ export default function Tooltip({ x, y, object }: Props) {
 
   return (
     <div
-      className="pointer-events-none absolute z-50 max-w-xs rounded-lg bg-gray-900/95 px-3 py-2 text-xs text-white shadow-xl backdrop-blur-sm"
+      className="pointer-events-none absolute z-50 max-w-xs rounded-md bg-bp-dark/95 px-3 py-2 text-xs text-white shadow-xl backdrop-blur-sm"
       style={{
         left: x + offsetX,
         top: y + offsetY,

@@ -34,6 +34,7 @@ export function useDataCenters(): DataCenter[] {
             latitude: Number(coords[1]),
             longitude: Number(coords[0]),
             capacityMw: p.capacityMw != null ? Number(p.capacityMw) : null,
+            usageMw: p.usageMw != null ? Number(p.usageMw) : null,
             type: parseDCType(String(p.type ?? "")),
             status: parseDCStatus(String(p.status ?? "")),
             campus: String(p.campus ?? ""),

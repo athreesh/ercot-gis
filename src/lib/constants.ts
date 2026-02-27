@@ -94,3 +94,36 @@ export const INITIAL_VIEW = {
 };
 
 export const MAP_STYLE = "https://tiles.openfreemap.org/styles/positron";
+
+// ERCOT grid reference (public data, as of 2024)
+export const ERCOT_GRID = {
+  installedCapacityGw: 153,
+  peakDemandGw: 85.5,
+  peakDemandDate: "Aug 2023",
+};
+
+// County → TDU (Transmission/Distribution Utility) mapping
+// Covers counties where our data centers and large loads sit
+const ONCOR_COUNTIES = new Set([
+  "Collin", "Dallas", "Denton", "Ellis", "Hood", "Johnson", "Kaufman",
+  "Navarro", "Tarrant", "Travis", "Williamson", "Bell", "McLennan",
+  "Taylor", "Grayson", "Midland",
+]);
+const CENTERPOINT_COUNTIES = new Set([
+  "Harris", "Fort Bend", "Montgomery", "Brazoria", "Galveston", "Waller",
+]);
+const AEP_COUNTIES = new Set([
+  "Bexar", "Nueces", "Webb", "Hidalgo", "Cameron", "Duval",
+  "Pecos", "Ward", "Ector", "Matagorda",
+]);
+
+export function getTDU(county: string): string {
+  if (ONCOR_COUNTIES.has(county)) return "Oncor";
+  if (CENTERPOINT_COUNTIES.has(county)) return "CenterPoint";
+  if (AEP_COUNTIES.has(county)) return "AEP Texas";
+  // Brazos county has its own utility
+  if (county === "Brazos") return "BTU";
+  if (county === "Milam") return "Oncor";
+  if (county === "Hutchinson") return "SPS/Xcel";
+  return "ERCOT";
+}

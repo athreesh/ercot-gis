@@ -56,18 +56,17 @@ export default function Sidebar({
   })();
 
   return (
-    <aside className="flex w-80 flex-col overflow-y-auto border-r border-gray-200 bg-white">
+    <aside className="flex w-80 flex-col overflow-y-auto border-r border-bp-border bg-white">
       {/* Header */}
-      <div className="border-b border-gray-200 px-4 py-4">
-        <h1 className="text-lg font-bold text-gray-900">ERCOT Queue Tracker</h1>
-        <p className="mt-0.5 text-xs text-gray-500">
+      <div className="bg-bp-green px-4 py-4">
+        <h1 className="text-base font-bold text-white tracking-tight">ERCOT Queue Tracker</h1>
+        <p className="mt-0.5 text-xs text-white/60">
           Is Texas building fast enough?
         </p>
       </div>
 
       {/* Content */}
-      <div className="flex-1 space-y-4 px-4 py-4">
-        {/* Headline stats */}
+      <div className="flex-1 space-y-3 px-3.5 py-3.5">
         <HeadlineStats
           projects={allProjects}
           dataCenters={dataCenters}
@@ -75,15 +74,15 @@ export default function Sidebar({
         />
 
         {/* Project count */}
-        <div className="text-xs text-gray-500 text-center">
-          Showing <span className="font-semibold text-gray-900">{filtered.length.toLocaleString()}</span>
+        <div className="text-[11px] text-bp-muted text-center">
+          Showing <span className="font-semibold text-bp-dark">{filtered.length.toLocaleString()}</span>
           {" of "}
           <span>{allProjects.length.toLocaleString()}</span>
           {" generation projects"}
         </div>
 
         {/* Layer toggles */}
-        <div className="border-t border-gray-200 pt-3">
+        <div className="border-t border-bp-border pt-3">
           <LayerToggles
             layers={filters.layers}
             showTerritory={filters.showTerritory}
@@ -94,7 +93,7 @@ export default function Sidebar({
         </div>
 
         {/* Filters - collapsed by default */}
-        <div className="border-t border-gray-200 pt-3">
+        <div className="border-t border-bp-border pt-3">
           <FilterSection title="Filters" defaultOpen={false}>
             <div className="space-y-3">
               <ViewModeToggle filters={filters} setViewMode={setViewMode} />
@@ -127,7 +126,7 @@ export default function Sidebar({
         </div>
 
         {/* Legend */}
-        <div className="border-t border-gray-200 pt-3">
+        <div className="border-t border-bp-border pt-3">
           <Legend />
         </div>
       </div>

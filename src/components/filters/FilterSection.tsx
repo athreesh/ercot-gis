@@ -10,15 +10,15 @@ export default function FilterSection({ title, children, defaultOpen = true }: P
   const [open, setOpen] = useState(defaultOpen);
 
   return (
-    <div className="border-b border-gray-200 pb-3">
+    <div className="border-b border-bp-border pb-3">
       <button
         type="button"
         onClick={() => setOpen(!open)}
-        className="flex w-full items-center justify-between py-1 text-left text-xs font-semibold uppercase tracking-wider text-gray-500 hover:text-gray-700"
+        className="flex w-full items-center justify-between py-1 text-left text-[10px] font-semibold uppercase tracking-wider text-bp-muted hover:text-bp-dark"
       >
         {title}
         <svg
-          className={`h-4 w-4 transform transition-transform ${open ? "rotate-180" : ""}`}
+          className={`h-3.5 w-3.5 transform transition-transform ${open ? "rotate-180" : ""}`}
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"

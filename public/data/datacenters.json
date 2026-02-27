@@ -16,6 +16,7 @@
         "city": "Allen",
         "county": "Collin",
         "capacityMw": 120,
+        "usageMw": 84,
         "type": "colo",
         "status": "operational",
         "campus": "Allen"
@@ -36,6 +37,7 @@
         "city": "Carrollton",
         "county": "Dallas",
         "capacityMw": 100,
+        "usageMw": 68,
         "type": "colo",
         "status": "operational",
         "campus": "Carrollton"
@@ -56,6 +58,7 @@
         "city": "Lewisville",
         "county": "Denton",
         "capacityMw": 80,
+        "usageMw": 54,
         "type": "colo",
         "status": "operational",
         "campus": "Lewisville"
@@ -76,6 +79,7 @@
         "city": "Garland",
         "county": "Dallas",
         "capacityMw": 150,
+        "usageMw": 105,
         "type": "colo",
         "status": "operational",
         "campus": "Garland"
@@ -96,6 +100,7 @@
         "city": "Allen",
         "county": "Collin",
         "capacityMw": 60,
+        "usageMw": 36,
         "type": "colo",
         "status": "operational",
         "campus": "Allen"
@@ -116,6 +121,7 @@
         "city": "Dallas",
         "county": "Dallas",
         "capacityMw": 15,
+        "usageMw": 12,
         "type": "colo",
         "status": "operational",
         "campus": "Infomart"
@@ -136,6 +142,7 @@
         "city": "Allen",
         "county": "Collin",
         "capacityMw": 30,
+        "usageMw": 22,
         "type": "colo",
         "status": "operational",
         "campus": "Allen"
@@ -156,6 +163,7 @@
         "city": "Irving",
         "county": "Dallas",
         "capacityMw": 45,
+        "usageMw": 32,
         "type": "colo",
         "status": "operational",
         "campus": "Irving"
@@ -176,6 +184,7 @@
         "city": "Irving",
         "county": "Dallas",
         "capacityMw": 110,
+        "usageMw": 77,
         "type": "colo",
         "status": "operational",
         "campus": "Irving"
@@ -196,6 +205,7 @@
         "city": "Forney",
         "county": "Kaufman",
         "capacityMw": 200,
+        "usageMw": 0,
         "type": "hyperscaler",
         "status": "under-construction",
         "campus": "Forney"
@@ -216,6 +226,7 @@
         "city": "Plano",
         "county": "Collin",
         "capacityMw": 50,
+        "usageMw": 35,
         "type": "colo",
         "status": "operational",
         "campus": "Plano"
@@ -236,6 +247,7 @@
         "city": "Richardson",
         "county": "Dallas",
         "capacityMw": 40,
+        "usageMw": 28,
         "type": "colo",
         "status": "operational",
         "campus": "Richardson"
@@ -256,6 +268,7 @@
         "city": "Dallas",
         "county": "Dallas",
         "capacityMw": 35,
+        "usageMw": 24,
         "type": "colo",
         "status": "operational",
         "campus": "Dallas"
@@ -276,6 +289,7 @@
         "city": "Plano",
         "county": "Collin",
         "capacityMw": 25,
+        "usageMw": 17,
         "type": "colo",
         "status": "operational",
         "campus": "Plano"
@@ -296,6 +310,7 @@
         "city": "Allen",
         "county": "Collin",
         "capacityMw": 20,
+        "usageMw": 14,
         "type": "colo",
         "status": "operational",
         "campus": "Allen"
@@ -316,6 +331,7 @@
         "city": "Red Oak",
         "county": "Ellis",
         "capacityMw": 60,
+        "usageMw": 42,
         "type": "hyperscaler",
         "status": "operational",
         "campus": "Red Oak"
@@ -336,6 +352,7 @@
         "city": "Austin",
         "county": "Travis",
         "capacityMw": 20,
+        "usageMw": 14,
         "type": "colo",
         "status": "operational",
         "campus": "Austin"
@@ -356,6 +373,7 @@
         "city": "Austin",
         "county": "Travis",
         "capacityMw": 18,
+        "usageMw": 12,
         "type": "colo",
         "status": "operational",
         "campus": "Austin"
@@ -376,6 +394,7 @@
         "city": "Austin",
         "county": "Williamson",
         "capacityMw": 35,
+        "usageMw": 28,
         "type": "hyperscaler",
         "status": "operational",
         "campus": "Austin"
@@ -396,6 +415,7 @@
         "city": "Austin",
         "county": "Travis",
         "capacityMw": 40,
+        "usageMw": 32,
         "type": "hyperscaler",
         "status": "operational",
         "campus": "Austin"
@@ -416,6 +436,7 @@
         "city": "San Antonio",
         "county": "Bexar",
         "capacityMw": 90,
+        "usageMw": 63,
         "type": "colo",
         "status": "operational",
         "campus": "San Antonio"
@@ -436,6 +457,7 @@
         "city": "San Antonio",
         "county": "Bexar",
         "capacityMw": 150,
+        "usageMw": 120,
         "type": "hyperscaler",
         "status": "operational",
         "campus": "South San Antonio"
@@ -456,6 +478,7 @@
         "city": "Windcrest",
         "county": "Bexar",
         "capacityMw": 30,
+        "usageMw": 18,
         "type": "enterprise",
         "status": "operational",
         "campus": "Windcrest"
@@ -476,6 +499,7 @@
         "city": "San Antonio",
         "county": "Bexar",
         "capacityMw": 300,
+        "usageMw": 0,
         "type": "hyperscaler",
         "status": "under-construction",
         "campus": "South San Antonio"
@@ -496,6 +520,7 @@
         "city": "Houston",
         "county": "Harris",
         "capacityMw": 100,
+        "usageMw": 70,
         "type": "colo",
         "status": "operational",
         "campus": "Houston West"
@@ -516,6 +541,7 @@
         "city": "Houston",
         "county": "Harris",
         "capacityMw": 50,
+        "usageMw": 35,
         "type": "colo",
         "status": "operational",
         "campus": "Houston"
@@ -536,6 +562,7 @@
         "city": "Houston",
         "county": "Harris",
         "capacityMw": 25,
+        "usageMw": 17,
         "type": "colo",
         "status": "operational",
         "campus": "Houston"
@@ -556,6 +583,7 @@
         "city": "Houston",
         "county": "Harris",
         "capacityMw": 20,
+        "usageMw": 14,
         "type": "colo",
         "status": "operational",
         "campus": "Houston"
@@ -576,6 +604,7 @@
         "city": "Houston",
         "county": "Harris",
         "capacityMw": 40,
+        "usageMw": 28,
         "type": "colo",
         "status": "operational",
         "campus": "Houston"
@@ -596,6 +625,7 @@
         "city": "Houston",
         "county": "Harris",
         "capacityMw": 15,
+        "usageMw": 10,
         "type": "colo",
         "status": "operational",
         "campus": "Houston"
@@ -616,6 +646,7 @@
         "city": "Abilene",
         "county": "Taylor",
         "capacityMw": 500,
+        "usageMw": 0,
         "type": "ai",
         "status": "under-construction",
         "campus": "Abilene"
@@ -636,6 +667,7 @@
         "city": "Abilene",
         "county": "Taylor",
         "capacityMw": 250,
+        "usageMw": 0,
         "type": "hyperscaler",
         "status": "under-construction",
         "campus": "Abilene"
@@ -656,6 +688,7 @@
         "city": "Temple",
         "county": "Bell",
         "capacityMw": 200,
+        "usageMw": 0,
         "type": "hyperscaler",
         "status": "under-construction",
         "campus": "Temple"
@@ -676,6 +709,7 @@
         "city": "Midlothian",
         "county": "Ellis",
         "capacityMw": 150,
+        "usageMw": 0,
         "type": "hyperscaler",
         "status": "under-construction",
         "campus": "Midlothian"
@@ -696,6 +730,7 @@
         "city": "Austin",
         "county": "Travis",
         "capacityMw": 100,
+        "usageMw": 0,
         "type": "ai",
         "status": "under-construction",
         "campus": "Austin"
@@ -716,6 +751,7 @@
         "city": "Dallas",
         "county": "Dallas",
         "capacityMw": 80,
+        "usageMw": 0,
         "type": "ai",
         "status": "under-construction",
         "campus": "Dallas"
@@ -736,6 +772,7 @@
         "city": "Dallas",
         "county": "Dallas",
         "capacityMw": 50,
+        "usageMw": 0,
         "type": "ai",
         "status": "under-construction",
         "campus": "Dallas"
@@ -756,6 +793,7 @@
         "city": "Midland",
         "county": "Midland",
         "capacityMw": 40,
+        "usageMw": 32,
         "type": "ai",
         "status": "operational",
         "campus": "Midland"
@@ -776,6 +814,7 @@
         "city": "Plano",
         "county": "Collin",
         "capacityMw": 65,
+        "usageMw": 45,
         "type": "colo",
         "status": "operational",
         "campus": "Plano"
@@ -796,6 +835,7 @@
         "city": "Garland",
         "county": "Dallas",
         "capacityMw": 120,
+        "usageMw": 84,
         "type": "hyperscaler",
         "status": "operational",
         "campus": "Garland"
@@ -816,6 +856,7 @@
         "city": "Mesa",
         "county": "Dallas",
         "capacityMw": 60,
+        "usageMw": 42,
         "type": "hyperscaler",
         "status": "operational",
         "campus": "Dallas"
@@ -836,6 +877,7 @@
         "city": "Abilene",
         "county": "Taylor",
         "capacityMw": 200,
+        "usageMw": 0,
         "type": "ai",
         "status": "planned",
         "campus": "Abilene"
@@ -856,6 +898,7 @@
         "city": "Austin",
         "county": "Travis",
         "capacityMw": 30,
+        "usageMw": 22,
         "type": "hyperscaler",
         "status": "operational",
         "campus": "Austin"
@@ -876,6 +919,7 @@
         "city": "Houston",
         "county": "Harris",
         "capacityMw": 20,
+        "usageMw": 15,
         "type": "colo",
         "status": "operational",
         "campus": "Houston"
@@ -896,6 +940,7 @@
         "city": "Dallas",
         "county": "Dallas",
         "capacityMw": 30,
+        "usageMw": 21,
         "type": "colo",
         "status": "operational",
         "campus": "Dallas"
@@ -916,6 +961,7 @@
         "city": "Garland",
         "county": "Dallas",
         "capacityMw": 20,
+        "usageMw": 14,
         "type": "colo",
         "status": "operational",
         "campus": "Garland"
@@ -936,6 +982,7 @@
         "city": "Houston",
         "county": "Harris",
         "capacityMw": 15,
+        "usageMw": 9,
         "type": "enterprise",
         "status": "operational",
         "campus": "Houston"
@@ -956,6 +1003,7 @@
         "city": "Fort Worth",
         "county": "Tarrant",
         "capacityMw": 100,
+        "usageMw": 75,
         "type": "hyperscaler",
         "status": "operational",
         "campus": "Fort Worth"
@@ -976,6 +1024,7 @@
         "city": "Midlothian",
         "county": "Ellis",
         "capacityMw": 300,
+        "usageMw": 0,
         "type": "hyperscaler",
         "status": "under-construction",
         "campus": "Midlothian"
@@ -996,6 +1045,7 @@
         "city": "Round Rock",
         "county": "Williamson",
         "capacityMw": 100,
+        "usageMw": 75,
         "type": "hyperscaler",
         "status": "operational",
         "campus": "Round Rock"
@@ -1016,6 +1066,7 @@
         "city": "San Antonio",
         "county": "Bexar",
         "capacityMw": 20,
+        "usageMw": 13,
         "type": "colo",
         "status": "operational",
         "campus": "San Antonio"
@@ -1036,6 +1087,7 @@
         "city": "Bryan",
         "county": "Brazos",
         "capacityMw": 15,
+        "usageMw": 10,
         "type": "colo",
         "status": "operational",
         "campus": "Bryan"
@@ -1056,6 +1108,7 @@
         "city": "Manvel",
         "county": "Brazoria",
         "capacityMw": 25,
+        "usageMw": 17,
         "type": "colo",
         "status": "operational",
         "campus": "Houston South"
@@ -1076,6 +1129,7 @@
         "city": "Round Rock",
         "county": "Williamson",
         "capacityMw": 40,
+        "usageMw": 0,
         "type": "colo",
         "status": "under-construction",
         "campus": "Round Rock"

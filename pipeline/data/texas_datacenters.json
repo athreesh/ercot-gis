@@ -7,6 +7,7 @@
     "latitude": 33.1032,
     "longitude": -96.6706,
     "capacity_mw": 120,
+    "usage_mw": 84,
     "type": "colo",
     "status": "operational",
     "campus": "Allen"
@@ -19,6 +20,7 @@
     "latitude": 32.9537,
     "longitude": -96.8903,
     "capacity_mw": 100,
+    "usage_mw": 68,
     "type": "colo",
     "status": "operational",
     "campus": "Carrollton"
@@ -31,6 +33,7 @@
     "latitude": 33.0462,
     "longitude": -96.9942,
     "capacity_mw": 80,
+    "usage_mw": 54,
     "type": "colo",
     "status": "operational",
     "campus": "Lewisville"
@@ -43,6 +46,7 @@
     "latitude": 32.9126,
     "longitude": -96.6389,
     "capacity_mw": 150,
+    "usage_mw": 105,
     "type": "colo",
     "status": "operational",
     "campus": "Garland"
@@ -55,6 +59,7 @@
     "latitude": 33.0890,
     "longitude": -96.6550,
     "capacity_mw": 60,
+    "usage_mw": 36,
     "type": "colo",
     "status": "operational",
     "campus": "Allen"
@@ -67,6 +72,7 @@
     "latitude": 32.9025,
     "longitude": -96.9569,
     "capacity_mw": 15,
+    "usage_mw": 12,
     "type": "colo",
     "status": "operational",
     "campus": "Infomart"
@@ -79,6 +85,7 @@
     "latitude": 33.1070,
     "longitude": -96.6485,
     "capacity_mw": 30,
+    "usage_mw": 22,
     "type": "colo",
     "status": "operational",
     "campus": "Allen"
@@ -91,6 +98,7 @@
     "latitude": 32.8840,
     "longitude": -96.9714,
     "capacity_mw": 45,
+    "usage_mw": 32,
     "type": "colo",
     "status": "operational",
     "campus": "Irving"
@@ -103,6 +111,7 @@
     "latitude": 32.8685,
     "longitude": -96.9421,
     "capacity_mw": 110,
+    "usage_mw": 77,
     "type": "colo",
     "status": "operational",
     "campus": "Irving"
@@ -115,6 +124,7 @@
     "latitude": 32.7350,
     "longitude": -96.4520,
     "capacity_mw": 200,
+    "usage_mw": 0,
     "type": "hyperscaler",
     "status": "under-construction",
     "campus": "Forney"
@@ -127,6 +137,7 @@
     "latitude": 33.0198,
     "longitude": -96.6989,
     "capacity_mw": 50,
+    "usage_mw": 35,
     "type": "colo",
     "status": "operational",
     "campus": "Plano"
@@ -139,6 +150,7 @@
     "latitude": 32.9483,
     "longitude": -96.7299,
     "capacity_mw": 40,
+    "usage_mw": 28,
     "type": "colo",
     "status": "operational",
     "campus": "Richardson"
@@ -151,6 +163,7 @@
     "latitude": 32.8971,
     "longitude": -96.7586,
     "capacity_mw": 35,
+    "usage_mw": 24,
     "type": "colo",
     "status": "operational",
     "campus": "Dallas"
@@ -163,6 +176,7 @@
     "latitude": 33.0453,
     "longitude": -96.7475,
     "capacity_mw": 25,
+    "usage_mw": 17,
     "type": "colo",
     "status": "operational",
     "campus": "Plano"
@@ -175,6 +189,7 @@
     "latitude": 33.1100,
     "longitude": -96.6525,
     "capacity_mw": 20,
+    "usage_mw": 14,
     "type": "colo",
     "status": "operational",
     "campus": "Allen"
@@ -187,6 +202,7 @@
     "latitude": 32.5174,
     "longitude": -96.8001,
     "capacity_mw": 60,
+    "usage_mw": 42,
     "type": "hyperscaler",
     "status": "operational",
     "campus": "Red Oak"
@@ -199,6 +215,7 @@
     "latitude": 30.3562,
     "longitude": -97.7266,
     "capacity_mw": 20,
+    "usage_mw": 14,
     "type": "colo",
     "status": "operational",
     "campus": "Austin"
@@ -211,6 +228,7 @@
     "latitude": 30.3974,
     "longitude": -97.7197,
     "capacity_mw": 18,
+    "usage_mw": 12,
     "type": "colo",
     "status": "operational",
     "campus": "Austin"
@@ -223,6 +241,7 @@
     "latitude": 30.5680,
     "longitude": -97.6660,
     "capacity_mw": 35,
+    "usage_mw": 28,
     "type": "hyperscaler",
     "status": "operational",
     "campus": "Austin"
@@ -235,6 +254,7 @@
     "latitude": 30.3255,
     "longitude": -97.6914,
     "capacity_mw": 40,
+    "usage_mw": 32,
     "type": "hyperscaler",
     "status": "operational",
     "campus": "Austin"
@@ -247,6 +267,7 @@
     "latitude": 29.5095,
     "longitude": -98.5760,
     "capacity_mw": 90,
+    "usage_mw": 63,
     "type": "colo",
     "status": "operational",
     "campus": "San Antonio"
@@ -259,6 +280,7 @@
     "latitude": 29.3985,
     "longitude": -98.4713,
     "capacity_mw": 150,
+    "usage_mw": 120,
     "type": "hyperscaler",
     "status": "operational",
     "campus": "South San Antonio"
@@ -271,6 +293,7 @@
     "latitude": 29.5149,
     "longitude": -98.3835,
     "capacity_mw": 30,
+    "usage_mw": 18,
     "type": "enterprise",
     "status": "operational",
     "campus": "Windcrest"
@@ -283,6 +306,7 @@
     "latitude": 29.3816,
     "longitude": -98.4865,
     "capacity_mw": 300,
+    "usage_mw": 0,
     "type": "hyperscaler",
     "status": "under-construction",
     "campus": "South San Antonio"
@@ -295,6 +319,7 @@
     "latitude": 29.7372,
     "longitude": -95.5617,
     "capacity_mw": 100,
+    "usage_mw": 70,
     "type": "colo",
     "status": "operational",
     "campus": "Houston West"
@@ -307,6 +332,7 @@
     "latitude": 29.8200,
     "longitude": -95.3354,
     "capacity_mw": 50,
+    "usage_mw": 35,
     "type": "colo",
     "status": "operational",
     "campus": "Houston"
@@ -319,6 +345,7 @@
     "latitude": 29.7690,
     "longitude": -95.3885,
     "capacity_mw": 25,
+    "usage_mw": 17,
     "type": "colo",
     "status": "operational",
     "campus": "Houston"
@@ -331,6 +358,7 @@
     "latitude": 29.7500,
     "longitude": -95.3601,
     "capacity_mw": 20,
+    "usage_mw": 14,
     "type": "colo",
     "status": "operational",
     "campus": "Houston"
@@ -343,6 +371,7 @@
     "latitude": 29.7566,
     "longitude": -95.3690,
     "capacity_mw": 40,
+    "usage_mw": 28,
     "type": "colo",
     "status": "operational",
     "campus": "Houston"
@@ -355,6 +384,7 @@
     "latitude": 29.7614,
     "longitude": -95.3581,
     "capacity_mw": 15,
+    "usage_mw": 10,
     "type": "colo",
     "status": "operational",
     "campus": "Houston"
@@ -367,6 +397,7 @@
     "latitude": 32.4543,
     "longitude": -99.7384,
     "capacity_mw": 500,
+    "usage_mw": 0,
     "type": "ai",
     "status": "under-construction",
     "campus": "Abilene"
@@ -379,6 +410,7 @@
     "latitude": 32.4200,
     "longitude": -99.7100,
     "capacity_mw": 250,
+    "usage_mw": 0,
     "type": "hyperscaler",
     "status": "under-construction",
     "campus": "Abilene"
@@ -391,6 +423,7 @@
     "latitude": 31.1171,
     "longitude": -97.3428,
     "capacity_mw": 200,
+    "usage_mw": 0,
     "type": "hyperscaler",
     "status": "under-construction",
     "campus": "Temple"
@@ -403,6 +436,7 @@
     "latitude": 32.4825,
     "longitude": -96.9944,
     "capacity_mw": 150,
+    "usage_mw": 0,
     "type": "hyperscaler",
     "status": "under-construction",
     "campus": "Midlothian"
@@ -415,6 +449,7 @@
     "latitude": 30.2250,
     "longitude": -97.7680,
     "capacity_mw": 100,
+    "usage_mw": 0,
     "type": "ai",
     "status": "under-construction",
     "campus": "Austin"
@@ -427,6 +462,7 @@
     "latitude": 32.8140,
     "longitude": -96.8700,
     "capacity_mw": 80,
+    "usage_mw": 0,
     "type": "ai",
     "status": "under-construction",
     "campus": "Dallas"
@@ -439,6 +475,7 @@
     "latitude": 32.8500,
     "longitude": -96.8500,
     "capacity_mw": 50,
+    "usage_mw": 0,
     "type": "ai",
     "status": "under-construction",
     "campus": "Dallas"
@@ -451,6 +488,7 @@
     "latitude": 31.9973,
     "longitude": -102.0779,
     "capacity_mw": 40,
+    "usage_mw": 32,
     "type": "ai",
     "status": "operational",
     "campus": "Midland"
@@ -463,6 +501,7 @@
     "latitude": 33.0540,
     "longitude": -96.7150,
     "capacity_mw": 65,
+    "usage_mw": 45,
     "type": "colo",
     "status": "operational",
     "campus": "Plano"
@@ -475,6 +514,7 @@
     "latitude": 32.9050,
     "longitude": -96.6200,
     "capacity_mw": 120,
+    "usage_mw": 84,
     "type": "hyperscaler",
     "status": "operational",
     "campus": "Garland"
@@ -487,6 +527,7 @@
     "latitude": 32.7700,
     "longitude": -96.8000,
     "capacity_mw": 60,
+    "usage_mw": 42,
     "type": "hyperscaler",
     "status": "operational",
     "campus": "Dallas"
@@ -499,6 +540,7 @@
     "latitude": 32.4000,
     "longitude": -99.7500,
     "capacity_mw": 200,
+    "usage_mw": 0,
     "type": "ai",
     "status": "planned",
     "campus": "Abilene"
@@ -511,6 +553,7 @@
     "latitude": 30.3910,
     "longitude": -97.7570,
     "capacity_mw": 30,
+    "usage_mw": 22,
     "type": "hyperscaler",
     "status": "operational",
     "campus": "Austin"
@@ -523,6 +566,7 @@
     "latitude": 29.7640,
     "longitude": -95.3530,
     "capacity_mw": 20,
+    "usage_mw": 15,
     "type": "colo",
     "status": "operational",
     "campus": "Houston"
@@ -535,6 +579,7 @@
     "latitude": 32.8765,
     "longitude": -96.9300,
     "capacity_mw": 30,
+    "usage_mw": 21,
     "type": "colo",
     "status": "operational",
     "campus": "Dallas"
@@ -547,6 +592,7 @@
     "latitude": 32.9060,
     "longitude": -96.6150,
     "capacity_mw": 20,
+    "usage_mw": 14,
     "type": "colo",
     "status": "operational",
     "campus": "Garland"
@@ -559,6 +605,7 @@
     "latitude": 29.7530,
     "longitude": -95.3540,
     "capacity_mw": 15,
+    "usage_mw": 9,
     "type": "enterprise",
     "status": "operational",
     "campus": "Houston"
@@ -571,6 +618,7 @@
     "latitude": 32.7551,
     "longitude": -97.3308,
     "capacity_mw": 100,
+    "usage_mw": 75,
     "type": "hyperscaler",
     "status": "operational",
     "campus": "Fort Worth"
@@ -583,6 +631,7 @@
     "latitude": 32.4850,
     "longitude": -96.9800,
     "capacity_mw": 300,
+    "usage_mw": 0,
     "type": "hyperscaler",
     "status": "under-construction",
     "campus": "Midlothian"
@@ -595,6 +644,7 @@
     "latitude": 30.5083,
     "longitude": -97.6789,
     "capacity_mw": 100,
+    "usage_mw": 75,
     "type": "hyperscaler",
     "status": "operational",
     "campus": "Round Rock"
@@ -607,6 +657,7 @@
     "latitude": 29.4241,
     "longitude": -98.4936,
     "capacity_mw": 20,
+    "usage_mw": 13,
     "type": "colo",
     "status": "operational",
     "campus": "San Antonio"
@@ -619,6 +670,7 @@
     "latitude": 30.6744,
     "longitude": -96.3700,
     "capacity_mw": 15,
+    "usage_mw": 10,
     "type": "colo",
     "status": "operational",
     "campus": "Bryan"
@@ -631,6 +683,7 @@
     "latitude": 29.4627,
     "longitude": -95.3587,
     "capacity_mw": 25,
+    "usage_mw": 17,
     "type": "colo",
     "status": "operational",
     "campus": "Houston South"
@@ -643,6 +696,7 @@
     "latitude": 30.5200,
     "longitude": -97.6600,
     "capacity_mw": 40,
+    "usage_mw": 0,
     "type": "colo",
     "status": "under-construction",
     "campus": "Round Rock"

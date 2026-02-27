@@ -27,6 +27,7 @@ def export_datacenters(output_path: str) -> int:
             "city": entry.get("city"),
             "county": entry.get("county"),
             "capacityMw": entry.get("capacity_mw"),
+            "usageMw": entry.get("usage_mw"),
             "type": entry.get("type"),
             "status": entry.get("status"),
             "campus": entry.get("campus"),

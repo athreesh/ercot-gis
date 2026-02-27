@@ -9,9 +9,9 @@ interface Props {
 }
 
 const LAYER_CONFIG: { key: keyof LayerVisibility; label: string; icon: string; color: string }[] = [
-  { key: "generationQueue", label: "Generation Queue", icon: "●", color: "text-yellow-500" },
-  { key: "dataCenters", label: "Data Centers", icon: "◆", color: "text-blue-500" },
-  { key: "largeLoads", label: "Large Load Queue", icon: "○", color: "text-red-500" },
+  { key: "generationQueue", label: "Generation Queue", icon: "●", color: "#FFB71B" },
+  { key: "dataCenters", label: "Data Centers", icon: "◆", color: "#0A9D6E" },
+  { key: "largeLoads", label: "Large Load Queue", icon: "○", color: "#EF4444" },
 ];
 
 function Toggle({ checked, onChange }: { checked: boolean; onChange: (on: boolean) => void }) {
@@ -22,7 +22,7 @@ function Toggle({ checked, onChange }: { checked: boolean; onChange: (on: boolea
       aria-checked={checked}
       onClick={() => onChange(!checked)}
       className={`relative inline-flex h-5 w-9 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors ${
-        checked ? "bg-blue-500" : "bg-gray-300"
+        checked ? "bg-bp-accent" : "bg-bp-border"
       }`}
     >
       <span
@@ -37,12 +37,12 @@ function Toggle({ checked, onChange }: { checked: boolean; onChange: (on: boolea
 export default function LayerToggles({ layers, showTerritory, hasTerritory, setLayerVisibility, setShowTerritory }: Props) {
   return (
     <div className="space-y-2">
-      <h3 className="text-xs font-semibold uppercase tracking-wider text-gray-500">Layers</h3>
+      <h3 className="text-[10px] font-semibold uppercase tracking-wider text-bp-muted">Layers</h3>
       <div className="space-y-1.5">
         {LAYER_CONFIG.map(({ key, label, icon, color }) => (
           <label key={key} className="flex cursor-pointer items-center justify-between py-0.5">
-            <span className="flex items-center gap-2 text-sm text-gray-700">
-              <span className={color}>{icon}</span>
+            <span className="flex items-center gap-2 text-sm text-bp-dark">
+              <span style={{ color }}>{icon}</span>
               {label}
             </span>
             <Toggle checked={layers[key]} onChange={(on) => setLayerVisibility(key, on)} />
@@ -50,8 +50,8 @@ export default function LayerToggles({ layers, showTerritory, hasTerritory, setL
         ))}
         {hasTerritory && (
           <label className="flex cursor-pointer items-center justify-between py-0.5">
-            <span className="flex items-center gap-2 text-sm text-gray-700">
-              <span className="text-gray-400">▢</span>
+            <span className="flex items-center gap-2 text-sm text-bp-dark">
+              <span className="text-bp-border">▢</span>
               Service Territory
             </span>
             <Toggle checked={showTerritory} onChange={setShowTerritory} />
