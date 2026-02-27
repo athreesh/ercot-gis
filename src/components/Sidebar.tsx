@@ -23,6 +23,7 @@ interface Props {
   setViewMode: (mode: ViewMode) => void;
   setShowTerritory: (on: boolean) => void;
   setLayerVisibility: (layer: keyof LayerVisibility, on: boolean) => void;
+  onClose?: () => void;
 }
 
 export default function Sidebar({
@@ -39,6 +40,7 @@ export default function Sidebar({
   setViewMode,
   setShowTerritory,
   setLayerVisibility,
+  onClose,
 }: Props) {
   const capacityRange: [number, number] = (() => {
     if (allProjects.length === 0) return [0, 2000];
@@ -58,11 +60,24 @@ export default function Sidebar({
   return (
     <aside className="flex w-80 flex-col overflow-y-auto border-r border-bp-border bg-white">
       {/* Header */}
-      <div className="bg-bp-green px-4 py-4">
-        <h1 className="text-base font-bold text-white tracking-tight">ERCOT Queue Tracker</h1>
-        <p className="mt-0.5 text-xs text-white/60">
-          Is Texas building fast enough?
-        </p>
+      <div className="flex items-start justify-between bg-bp-green px-4 py-4">
+        <div>
+          <h1 className="text-base font-bold text-white tracking-tight">ERCOT Queue Tracker</h1>
+          <p className="mt-0.5 text-xs text-white/60">
+            Is Texas building fast enough?
+          </p>
+        </div>
+        {onClose && (
+          <button
+            type="button"
+            onClick={onClose}
+            className="mt-0.5 rounded p-1 text-white/60 hover:text-white hover:bg-white/10 md:hidden"
+          >
+            <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        )}
       </div>
 
       {/* Content */}
