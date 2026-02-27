@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* MapLibre canvas */
+.maplibregl-map { position: absolute; inset: 0; }

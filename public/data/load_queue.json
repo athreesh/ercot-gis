@@ -1,0 +1,632 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.7384,
+          32.4543
+        ]
+      },
+      "properties": {
+        "name": "Stargate Phase 1",
+        "entity": "OpenAI / SoftBank / Oracle",
+        "county": "Taylor",
+        "requestedMw": 1200,
+        "status": "Active",
+        "type": "data_center",
+        "yearFiled": 2024
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.72,
+          32.44
+        ]
+      },
+      "properties": {
+        "name": "Stargate Phase 2",
+        "entity": "OpenAI / SoftBank / Oracle",
+        "county": "Taylor",
+        "requestedMw": 1500,
+        "status": "Active",
+        "type": "data_center",
+        "yearFiled": 2025
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.768,
+          30.225
+        ]
+      },
+      "properties": {
+        "name": "CoreWeave TX-1",
+        "entity": "CoreWeave",
+        "county": "Travis",
+        "requestedMw": 400,
+        "status": "Active",
+        "type": "data_center",
+        "yearFiled": 2024
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.87,
+          32.814
+        ]
+      },
+      "properties": {
+        "name": "CoreWeave TX-2",
+        "entity": "CoreWeave",
+        "county": "Dallas",
+        "requestedMw": 350,
+        "status": "Active",
+        "type": "data_center",
+        "yearFiled": 2024
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3428,
+          31.1171
+        ]
+      },
+      "properties": {
+        "name": "Meta Temple Data Center",
+        "entity": "Meta Platforms",
+        "county": "Bell",
+        "requestedMw": 800,
+        "status": "Active",
+        "type": "data_center",
+        "yearFiled": 2024
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.71,
+          32.42
+        ]
+      },
+      "properties": {
+        "name": "Google Abilene Campus",
+        "entity": "Google",
+        "county": "Taylor",
+        "requestedMw": 600,
+        "status": "Active",
+        "type": "data_center",
+        "yearFiled": 2024
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4865,
+          29.3816
+        ]
+      },
+      "properties": {
+        "name": "Microsoft SA Expansion",
+        "entity": "Microsoft",
+        "county": "Bexar",
+        "requestedMw": 500,
+        "status": "Active",
+        "type": "data_center",
+        "yearFiled": 2024
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.98,
+          32.485
+        ]
+      },
+      "properties": {
+        "name": "Google Midlothian Campus",
+        "entity": "Google",
+        "county": "Ellis",
+        "requestedMw": 700,
+        "status": "Active",
+        "type": "data_center",
+        "yearFiled": 2024
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9944,
+          32.4825
+        ]
+      },
+      "properties": {
+        "name": "TikTok Midlothian Facility",
+        "entity": "ByteDance",
+        "county": "Ellis",
+        "requestedMw": 300,
+        "status": "Active",
+        "type": "data_center",
+        "yearFiled": 2023
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.452,
+          32.735
+        ]
+      },
+      "properties": {
+        "name": "QTS DFW Mega Campus",
+        "entity": "QTS Realty",
+        "county": "Kaufman",
+        "requestedMw": 500,
+        "status": "Active",
+        "type": "data_center",
+        "yearFiled": 2024
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.75,
+          32.4
+        ]
+      },
+      "properties": {
+        "name": "Lancium Clean Campus",
+        "entity": "Lancium",
+        "county": "Taylor",
+        "requestedMw": 600,
+        "status": "Active",
+        "type": "data_center",
+        "yearFiled": 2024
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.85,
+          32.85
+        ]
+      },
+      "properties": {
+        "name": "Lambda Labs TX GPU Cloud",
+        "entity": "Lambda",
+        "county": "Dallas",
+        "requestedMw": 200,
+        "status": "Active",
+        "type": "data_center",
+        "yearFiled": 2024
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0017,
+          30.6554
+        ]
+      },
+      "properties": {
+        "name": "Riot Platforms Rockdale",
+        "entity": "Riot Platforms",
+        "county": "Milam",
+        "requestedMw": 700,
+        "status": "Active",
+        "type": "crypto",
+        "yearFiled": 2022
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4689,
+          32.0955
+        ]
+      },
+      "properties": {
+        "name": "Riot Platforms Corsicana",
+        "entity": "Riot Platforms",
+        "county": "Navarro",
+        "requestedMw": 1000,
+        "status": "Active",
+        "type": "crypto",
+        "yearFiled": 2023
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7942,
+          32.4419
+        ]
+      },
+      "properties": {
+        "name": "Marathon Digital Granbury",
+        "entity": "Marathon Digital",
+        "county": "Hood",
+        "requestedMw": 280,
+        "status": "Active",
+        "type": "crypto",
+        "yearFiled": 2022
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.99,
+          30.66
+        ]
+      },
+      "properties": {
+        "name": "Bitdeer Rockdale",
+        "entity": "Bitdeer Technologies",
+        "county": "Milam",
+        "requestedMw": 350,
+        "status": "Active",
+        "type": "crypto",
+        "yearFiled": 2023
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.37,
+          35.84
+        ]
+      },
+      "properties": {
+        "name": "Applied Digital Ellendale",
+        "entity": "Applied Digital",
+        "county": "Hutchinson",
+        "requestedMw": 300,
+        "status": "Active",
+        "type": "data_center",
+        "yearFiled": 2024
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6089,
+          33.6357
+        ]
+      },
+      "properties": {
+        "name": "Texas Instruments Sherman Fab",
+        "entity": "Texas Instruments",
+        "county": "Grayson",
+        "requestedMw": 800,
+        "status": "Active",
+        "type": "manufacturing",
+        "yearFiled": 2023
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.41,
+          30.57
+        ]
+      },
+      "properties": {
+        "name": "Samsung Taylor Fab",
+        "entity": "Samsung",
+        "county": "Williamson",
+        "requestedMw": 950,
+        "status": "Active",
+        "type": "manufacturing",
+        "yearFiled": 2022
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0102,
+          29.7546
+        ]
+      },
+      "properties": {
+        "name": "Exxon Mobil Baytown Complex",
+        "entity": "Exxon Mobil",
+        "county": "Harris",
+        "requestedMw": 400,
+        "status": "Active",
+        "type": "industrial",
+        "yearFiled": 2023
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3597,
+          28.9542
+        ]
+      },
+      "properties": {
+        "name": "Dow Chemical Freeport",
+        "entity": "Dow Chemical",
+        "county": "Brazoria",
+        "requestedMw": 300,
+        "status": "Active",
+        "type": "industrial",
+        "yearFiled": 2023
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.32,
+          32.76
+        ]
+      },
+      "properties": {
+        "name": "AWS TX Hyperscale Campus",
+        "entity": "Amazon Web Services",
+        "county": "Tarrant",
+        "requestedMw": 500,
+        "status": "Active",
+        "type": "data_center",
+        "yearFiled": 2024
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8001,
+          32.5174
+        ]
+      },
+      "properties": {
+        "name": "Compass Datacenters DFW Expansion",
+        "entity": "Compass Datacenters",
+        "county": "Ellis",
+        "requestedMw": 400,
+        "status": "Active",
+        "type": "data_center",
+        "yearFiled": 2024
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.715,
+          33.054
+        ]
+      },
+      "properties": {
+        "name": "Aligned DFW Expansion",
+        "entity": "Aligned Data Centers",
+        "county": "Collin",
+        "requestedMw": 200,
+        "status": "Active",
+        "type": "data_center",
+        "yearFiled": 2024
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.62,
+          32.905
+        ]
+      },
+      "properties": {
+        "name": "Vantage DFW Phase 2",
+        "entity": "Vantage Data Centers",
+        "county": "Dallas",
+        "requestedMw": 250,
+        "status": "Active",
+        "type": "data_center",
+        "yearFiled": 2024
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3587,
+          29.4627
+        ]
+      },
+      "properties": {
+        "name": "Iron Mountain TX Expansion",
+        "entity": "Iron Mountain",
+        "county": "Brazoria",
+        "requestedMw": 150,
+        "status": "Active",
+        "type": "data_center",
+        "yearFiled": 2024
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.66,
+          30.52
+        ]
+      },
+      "properties": {
+        "name": "Sabey Round Rock Campus",
+        "entity": "Sabey Data Centers",
+        "county": "Williamson",
+        "requestedMw": 200,
+        "status": "Active",
+        "type": "data_center",
+        "yearFiled": 2024
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.655,
+          33.089
+        ]
+      },
+      "properties": {
+        "name": "Digital Realty DFW Hyperscale",
+        "entity": "Digital Realty",
+        "county": "Collin",
+        "requestedMw": 300,
+        "status": "Active",
+        "type": "data_center",
+        "yearFiled": 2024
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.0779,
+          31.9973
+        ]
+      },
+      "properties": {
+        "name": "Crusoe Energy West TX",
+        "entity": "Crusoe Energy",
+        "county": "Midland",
+        "requestedMw": 200,
+        "status": "Active",
+        "type": "data_center",
+        "yearFiled": 2024
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.51,
+          27.71
+        ]
+      },
+      "properties": {
+        "name": "Hydrogen City Green H2",
+        "entity": "Green Hydrogen International",
+        "county": "Duval",
+        "requestedMw": 2000,
+        "status": "Active",
+        "type": "industrial",
+        "yearFiled": 2023
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9892,
+          28.6756
+        ]
+      },
+      "properties": {
+        "name": "Gulf Coast Ammonia Plant",
+        "entity": "OCI",
+        "county": "Matagorda",
+        "requestedMw": 250,
+        "status": "Active",
+        "type": "industrial",
+        "yearFiled": 2023
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.43,
+          30.96
+        ]
+      },
+      "properties": {
+        "name": "Permian Basin BTC Mining",
+        "entity": "Various Miners",
+        "county": "Pecos",
+        "requestedMw": 350,
+        "status": "Active",
+        "type": "crypto",
+        "yearFiled": 2023
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.15,
+          31.49
+        ]
+      },
+      "properties": {
+        "name": "ERCOT West BTC Cluster",
+        "entity": "Various Miners",
+        "county": "Ward",
+        "requestedMw": 250,
+        "status": "Active",
+        "type": "crypto",
+        "yearFiled": 2023
+      }
+    }
+  ]
+}

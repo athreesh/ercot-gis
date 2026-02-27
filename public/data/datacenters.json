@@ -1,0 +1,1085 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6706,
+          33.1032
+        ]
+      },
+      "properties": {
+        "name": "CyrusOne Allen I-III",
+        "operator": "CyrusOne",
+        "city": "Allen",
+        "county": "Collin",
+        "capacityMw": 120,
+        "type": "colo",
+        "status": "operational",
+        "campus": "Allen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8903,
+          32.9537
+        ]
+      },
+      "properties": {
+        "name": "CyrusOne Carrollton",
+        "operator": "CyrusOne",
+        "city": "Carrollton",
+        "county": "Dallas",
+        "capacityMw": 100,
+        "type": "colo",
+        "status": "operational",
+        "campus": "Carrollton"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9942,
+          33.0462
+        ]
+      },
+      "properties": {
+        "name": "CyrusOne Lewisville",
+        "operator": "CyrusOne",
+        "city": "Lewisville",
+        "county": "Denton",
+        "capacityMw": 80,
+        "type": "colo",
+        "status": "operational",
+        "campus": "Lewisville"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6389,
+          32.9126
+        ]
+      },
+      "properties": {
+        "name": "Digital Realty DFW10-14",
+        "operator": "Digital Realty",
+        "city": "Garland",
+        "county": "Dallas",
+        "capacityMw": 150,
+        "type": "colo",
+        "status": "operational",
+        "campus": "Garland"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.655,
+          33.089
+        ]
+      },
+      "properties": {
+        "name": "Digital Realty DFW16",
+        "operator": "Digital Realty",
+        "city": "Allen",
+        "county": "Collin",
+        "capacityMw": 60,
+        "type": "colo",
+        "status": "operational",
+        "campus": "Allen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9569,
+          32.9025
+        ]
+      },
+      "properties": {
+        "name": "Equinix DA1",
+        "operator": "Equinix",
+        "city": "Dallas",
+        "county": "Dallas",
+        "capacityMw": 15,
+        "type": "colo",
+        "status": "operational",
+        "campus": "Infomart"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6485,
+          33.107
+        ]
+      },
+      "properties": {
+        "name": "Equinix DA6",
+        "operator": "Equinix",
+        "city": "Allen",
+        "county": "Collin",
+        "capacityMw": 30,
+        "type": "colo",
+        "status": "operational",
+        "campus": "Allen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9714,
+          32.884
+        ]
+      },
+      "properties": {
+        "name": "Equinix DA9-DA11",
+        "operator": "Equinix",
+        "city": "Irving",
+        "county": "Dallas",
+        "capacityMw": 45,
+        "type": "colo",
+        "status": "operational",
+        "campus": "Irving"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9421,
+          32.8685
+        ]
+      },
+      "properties": {
+        "name": "QTS Dallas-Fort Worth (DFW1)",
+        "operator": "QTS Realty",
+        "city": "Irving",
+        "county": "Dallas",
+        "capacityMw": 110,
+        "type": "colo",
+        "status": "operational",
+        "campus": "Irving"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.452,
+          32.735
+        ]
+      },
+      "properties": {
+        "name": "QTS Dallas-Fort Worth Mega",
+        "operator": "QTS Realty",
+        "city": "Forney",
+        "county": "Kaufman",
+        "capacityMw": 200,
+        "type": "hyperscaler",
+        "status": "under-construction",
+        "campus": "Forney"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6989,
+          33.0198
+        ]
+      },
+      "properties": {
+        "name": "Stream Data Centers Plano",
+        "operator": "Stream Data Centers",
+        "city": "Plano",
+        "county": "Collin",
+        "capacityMw": 50,
+        "type": "colo",
+        "status": "operational",
+        "campus": "Plano"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7299,
+          32.9483
+        ]
+      },
+      "properties": {
+        "name": "Stream Data Centers Richardson",
+        "operator": "Stream Data Centers",
+        "city": "Richardson",
+        "county": "Dallas",
+        "capacityMw": 40,
+        "type": "colo",
+        "status": "operational",
+        "campus": "Richardson"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7586,
+          32.8971
+        ]
+      },
+      "properties": {
+        "name": "DataBank DFW1-3",
+        "operator": "DataBank",
+        "city": "Dallas",
+        "county": "Dallas",
+        "capacityMw": 35,
+        "type": "colo",
+        "status": "operational",
+        "campus": "Dallas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7475,
+          33.0453
+        ]
+      },
+      "properties": {
+        "name": "Flexential DFW",
+        "operator": "Flexential",
+        "city": "Plano",
+        "county": "Collin",
+        "capacityMw": 25,
+        "type": "colo",
+        "status": "operational",
+        "campus": "Plano"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6525,
+          33.11
+        ]
+      },
+      "properties": {
+        "name": "TierPoint Dallas",
+        "operator": "TierPoint",
+        "city": "Allen",
+        "county": "Collin",
+        "capacityMw": 20,
+        "type": "colo",
+        "status": "operational",
+        "campus": "Allen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8001,
+          32.5174
+        ]
+      },
+      "properties": {
+        "name": "Compass Datacenters DFW",
+        "operator": "Compass Datacenters",
+        "city": "Red Oak",
+        "county": "Ellis",
+        "capacityMw": 60,
+        "type": "hyperscaler",
+        "status": "operational",
+        "campus": "Red Oak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7266,
+          30.3562
+        ]
+      },
+      "properties": {
+        "name": "DataFoundry Austin 1-2",
+        "operator": "DataFoundry",
+        "city": "Austin",
+        "county": "Travis",
+        "capacityMw": 20,
+        "type": "colo",
+        "status": "operational",
+        "campus": "Austin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7197,
+          30.3974
+        ]
+      },
+      "properties": {
+        "name": "Skybox Datacenters Austin",
+        "operator": "Skybox Datacenters",
+        "city": "Austin",
+        "county": "Travis",
+        "capacityMw": 18,
+        "type": "colo",
+        "status": "operational",
+        "campus": "Austin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.666,
+          30.568
+        ]
+      },
+      "properties": {
+        "name": "Apple Austin Data Center",
+        "operator": "Apple",
+        "city": "Austin",
+        "county": "Williamson",
+        "capacityMw": 35,
+        "type": "hyperscaler",
+        "status": "operational",
+        "campus": "Austin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6914,
+          30.3255
+        ]
+      },
+      "properties": {
+        "name": "Meta Austin Data Center",
+        "operator": "Meta",
+        "city": "Austin",
+        "county": "Travis",
+        "capacityMw": 40,
+        "type": "hyperscaler",
+        "status": "operational",
+        "campus": "Austin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.576,
+          29.5095
+        ]
+      },
+      "properties": {
+        "name": "CyrusOne San Antonio I-V",
+        "operator": "CyrusOne",
+        "city": "San Antonio",
+        "county": "Bexar",
+        "capacityMw": 90,
+        "type": "colo",
+        "status": "operational",
+        "campus": "San Antonio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4713,
+          29.3985
+        ]
+      },
+      "properties": {
+        "name": "Microsoft San Antonio",
+        "operator": "Microsoft",
+        "city": "San Antonio",
+        "county": "Bexar",
+        "capacityMw": 150,
+        "type": "hyperscaler",
+        "status": "operational",
+        "campus": "South San Antonio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3835,
+          29.5149
+        ]
+      },
+      "properties": {
+        "name": "Rackspace HQ",
+        "operator": "Rackspace",
+        "city": "Windcrest",
+        "county": "Bexar",
+        "capacityMw": 30,
+        "type": "enterprise",
+        "status": "operational",
+        "campus": "Windcrest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4865,
+          29.3816
+        ]
+      },
+      "properties": {
+        "name": "Microsoft San Antonio Expansion",
+        "operator": "Microsoft",
+        "city": "San Antonio",
+        "county": "Bexar",
+        "capacityMw": 300,
+        "type": "hyperscaler",
+        "status": "under-construction",
+        "campus": "South San Antonio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.5617,
+          29.7372
+        ]
+      },
+      "properties": {
+        "name": "CyrusOne Houston West I-III",
+        "operator": "CyrusOne",
+        "city": "Houston",
+        "county": "Harris",
+        "capacityMw": 100,
+        "type": "colo",
+        "status": "operational",
+        "campus": "Houston West"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3354,
+          29.82
+        ]
+      },
+      "properties": {
+        "name": "QTS Houston (IAH1)",
+        "operator": "QTS Realty",
+        "city": "Houston",
+        "county": "Harris",
+        "capacityMw": 50,
+        "type": "colo",
+        "status": "operational",
+        "campus": "Houston"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3885,
+          29.769
+        ]
+      },
+      "properties": {
+        "name": "DataBank Houston",
+        "operator": "DataBank",
+        "city": "Houston",
+        "county": "Harris",
+        "capacityMw": 25,
+        "type": "colo",
+        "status": "operational",
+        "campus": "Houston"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3601,
+          29.75
+        ]
+      },
+      "properties": {
+        "name": "H5 Data Centers Houston",
+        "operator": "H5 Data Centers",
+        "city": "Houston",
+        "county": "Harris",
+        "capacityMw": 20,
+        "type": "colo",
+        "status": "operational",
+        "campus": "Houston"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.369,
+          29.7566
+        ]
+      },
+      "properties": {
+        "name": "Digital Realty Houston",
+        "operator": "Digital Realty",
+        "city": "Houston",
+        "county": "Harris",
+        "capacityMw": 40,
+        "type": "colo",
+        "status": "operational",
+        "campus": "Houston"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3581,
+          29.7614
+        ]
+      },
+      "properties": {
+        "name": "Cyxtera Houston",
+        "operator": "Cyxtera",
+        "city": "Houston",
+        "county": "Harris",
+        "capacityMw": 15,
+        "type": "colo",
+        "status": "operational",
+        "campus": "Houston"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.7384,
+          32.4543
+        ]
+      },
+      "properties": {
+        "name": "Stargate Abilene Phase 1",
+        "operator": "OpenAI / SoftBank",
+        "city": "Abilene",
+        "county": "Taylor",
+        "capacityMw": 500,
+        "type": "ai",
+        "status": "under-construction",
+        "campus": "Abilene"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.71,
+          32.42
+        ]
+      },
+      "properties": {
+        "name": "Google Abilene Data Center",
+        "operator": "Google",
+        "city": "Abilene",
+        "county": "Taylor",
+        "capacityMw": 250,
+        "type": "hyperscaler",
+        "status": "under-construction",
+        "campus": "Abilene"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3428,
+          31.1171
+        ]
+      },
+      "properties": {
+        "name": "Meta Temple Data Center",
+        "operator": "Meta",
+        "city": "Temple",
+        "county": "Bell",
+        "capacityMw": 200,
+        "type": "hyperscaler",
+        "status": "under-construction",
+        "campus": "Temple"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9944,
+          32.4825
+        ]
+      },
+      "properties": {
+        "name": "TikTok / ByteDance Midlothian",
+        "operator": "ByteDance",
+        "city": "Midlothian",
+        "county": "Ellis",
+        "capacityMw": 150,
+        "type": "hyperscaler",
+        "status": "under-construction",
+        "campus": "Midlothian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.768,
+          30.225
+        ]
+      },
+      "properties": {
+        "name": "CoreWeave Austin",
+        "operator": "CoreWeave",
+        "city": "Austin",
+        "county": "Travis",
+        "capacityMw": 100,
+        "type": "ai",
+        "status": "under-construction",
+        "campus": "Austin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.87,
+          32.814
+        ]
+      },
+      "properties": {
+        "name": "CoreWeave Dallas",
+        "operator": "CoreWeave",
+        "city": "Dallas",
+        "county": "Dallas",
+        "capacityMw": 80,
+        "type": "ai",
+        "status": "under-construction",
+        "campus": "Dallas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.85,
+          32.85
+        ]
+      },
+      "properties": {
+        "name": "Lambda Labs Dallas",
+        "operator": "Lambda",
+        "city": "Dallas",
+        "county": "Dallas",
+        "capacityMw": 50,
+        "type": "ai",
+        "status": "under-construction",
+        "campus": "Dallas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.0779,
+          31.9973
+        ]
+      },
+      "properties": {
+        "name": "Crusoe Energy Midland",
+        "operator": "Crusoe Energy",
+        "city": "Midland",
+        "county": "Midland",
+        "capacityMw": 40,
+        "type": "ai",
+        "status": "operational",
+        "campus": "Midland"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.715,
+          33.054
+        ]
+      },
+      "properties": {
+        "name": "Aligned Data Centers DFW",
+        "operator": "Aligned",
+        "city": "Plano",
+        "county": "Collin",
+        "capacityMw": 65,
+        "type": "colo",
+        "status": "operational",
+        "campus": "Plano"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.62,
+          32.905
+        ]
+      },
+      "properties": {
+        "name": "Vantage DFW Campus",
+        "operator": "Vantage Data Centers",
+        "city": "Garland",
+        "county": "Dallas",
+        "capacityMw": 120,
+        "type": "hyperscaler",
+        "status": "operational",
+        "campus": "Garland"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8,
+          32.77
+        ]
+      },
+      "properties": {
+        "name": "EdgeCore DFW01",
+        "operator": "EdgeCore",
+        "city": "Mesa",
+        "county": "Dallas",
+        "capacityMw": 60,
+        "type": "hyperscaler",
+        "status": "operational",
+        "campus": "Dallas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.75,
+          32.4
+        ]
+      },
+      "properties": {
+        "name": "Lancium Clean Campus Abilene",
+        "operator": "Lancium",
+        "city": "Abilene",
+        "county": "Taylor",
+        "capacityMw": 200,
+        "type": "ai",
+        "status": "planned",
+        "campus": "Abilene"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.757,
+          30.391
+        ]
+      },
+      "properties": {
+        "name": "Oracle Austin Cloud Region",
+        "operator": "Oracle",
+        "city": "Austin",
+        "county": "Travis",
+        "capacityMw": 30,
+        "type": "hyperscaler",
+        "status": "operational",
+        "campus": "Austin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.353,
+          29.764
+        ]
+      },
+      "properties": {
+        "name": "Equinix Houston (HO1-HO2)",
+        "operator": "Equinix",
+        "city": "Houston",
+        "county": "Harris",
+        "capacityMw": 20,
+        "type": "colo",
+        "status": "operational",
+        "campus": "Houston"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.93,
+          32.8765
+        ]
+      },
+      "properties": {
+        "name": "T5 Data Centers Dallas",
+        "operator": "T5 Data Centers",
+        "city": "Dallas",
+        "county": "Dallas",
+        "capacityMw": 30,
+        "type": "colo",
+        "status": "operational",
+        "campus": "Dallas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.615,
+          32.906
+        ]
+      },
+      "properties": {
+        "name": "NTT Dallas",
+        "operator": "NTT",
+        "city": "Garland",
+        "county": "Dallas",
+        "capacityMw": 20,
+        "type": "colo",
+        "status": "operational",
+        "campus": "Garland"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.354,
+          29.753
+        ]
+      },
+      "properties": {
+        "name": "Lumen Houston",
+        "operator": "Lumen",
+        "city": "Houston",
+        "county": "Harris",
+        "capacityMw": 15,
+        "type": "enterprise",
+        "status": "operational",
+        "campus": "Houston"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3308,
+          32.7551
+        ]
+      },
+      "properties": {
+        "name": "AWS US-East (Texas)",
+        "operator": "Amazon Web Services",
+        "city": "Fort Worth",
+        "county": "Tarrant",
+        "capacityMw": 100,
+        "type": "hyperscaler",
+        "status": "operational",
+        "campus": "Fort Worth"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.98,
+          32.485
+        ]
+      },
+      "properties": {
+        "name": "Google Midlothian",
+        "operator": "Google",
+        "city": "Midlothian",
+        "county": "Ellis",
+        "capacityMw": 300,
+        "type": "hyperscaler",
+        "status": "under-construction",
+        "campus": "Midlothian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6789,
+          30.5083
+        ]
+      },
+      "properties": {
+        "name": "Meta Round Rock",
+        "operator": "Meta",
+        "city": "Round Rock",
+        "county": "Williamson",
+        "capacityMw": 100,
+        "type": "hyperscaler",
+        "status": "operational",
+        "campus": "Round Rock"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4936,
+          29.4241
+        ]
+      },
+      "properties": {
+        "name": "Primary Digital San Antonio",
+        "operator": "Primary Digital",
+        "city": "San Antonio",
+        "county": "Bexar",
+        "capacityMw": 20,
+        "type": "colo",
+        "status": "operational",
+        "campus": "San Antonio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.37,
+          30.6744
+        ]
+      },
+      "properties": {
+        "name": "Skybox Datacenters Bryan",
+        "operator": "Skybox Datacenters",
+        "city": "Bryan",
+        "county": "Brazos",
+        "capacityMw": 15,
+        "type": "colo",
+        "status": "operational",
+        "campus": "Bryan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3587,
+          29.4627
+        ]
+      },
+      "properties": {
+        "name": "Iron Mountain DFW",
+        "operator": "Iron Mountain",
+        "city": "Manvel",
+        "county": "Brazoria",
+        "capacityMw": 25,
+        "type": "colo",
+        "status": "operational",
+        "campus": "Houston South"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.66,
+          30.52
+        ]
+      },
+      "properties": {
+        "name": "Sabey Data Centers Round Rock",
+        "operator": "Sabey",
+        "city": "Round Rock",
+        "county": "Williamson",
+        "capacityMw": 40,
+        "type": "colo",
+        "status": "under-construction",
+        "campus": "Round Rock"
+      }
+    }
+  ]
+}
