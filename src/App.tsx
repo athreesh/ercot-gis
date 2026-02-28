@@ -80,7 +80,7 @@ export default function App() {
       </div>
 
       {/* Map */}
-      <div className="relative flex-1">
+      <div className="relative flex-1 flex flex-col">
         {/* Mobile toggle button */}
         <button
           type="button"
